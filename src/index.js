@@ -53,7 +53,7 @@ function askForAction(list, index) {
       message: 'Please choose a choice',
       choices: [{name: 'exit', value: 'exit'},
         {name: 'done', value: 'markAsDone'},
-        {name: 'undone', value: 'markAsUndone'},
+        {name: 'undone', value: 'markAsUnknown'},
         {name: 'chang tittle', value: 'updateTittle'},
         {name: 'remove', value: 'remove'}
       ]
