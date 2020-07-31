@@ -7,9 +7,12 @@ describe('db',  () => {
     fs.clearMocks()
   })
   it('can read', async (done) => {
-    let data = [{tittle: "hi", done: true}]
-    fs.setReadFileMock('/fuck', null, JSON.stringify(data))
-    const list = await db.read('/fuck')
+    let data = [{tittle: 'hi', done: true}]
+    fs.setReadFileMock('/aaa', null, JSON.stringify(data))
+
+    const list = await db.read('/aaa')
+
+
     expect(list).toStrictEqual(data)
     done()
   });

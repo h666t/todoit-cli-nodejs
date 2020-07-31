@@ -8,7 +8,7 @@
     "src/db.js",
     "src/index.js"
   ],
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
@@ -19,7 +19,7 @@
     "commander": "^6.0.0",
     "global": "^4.4.0",
     "inquirer": "^7.3.3",
-    "todoit": "^0.0.5",
+    "todoit": "^0.0.6",
     "user": "0.0.0"
   },
   "devDependencies": {

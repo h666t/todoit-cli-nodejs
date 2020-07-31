@@ -3388,6 +3388,18 @@ todoit@^0.0.5:
     inquirer "^7.3.3"
     user "0.0.0"
 
+todoit@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/todoit/-/todoit-0.0.6.tgz#401a3ea408bd7a435fc8cb9099cebe06cd8ad0c4"
+  integrity sha512-Qa7m7VLyxcc7fx6gv6pyEQWNRJ92xXFFuj4JDPxC+QDNtYFSnED3pMLhms9PmjeAldJWAvXyXjW5Mu8LFqViuQ==
+  dependencies:
+    "@jest/globals" "^26.2.0"
+    commander "^6.0.0"
+    global "^4.4.0"
+    inquirer "^7.3.3"
+    todoit "^0.0.5"
+    user "0.0.0"
+
 tough-cookie@^2.3.3, tough-cookie@~2.5.0:
   version "2.5.0"
   resolved "https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.5.0.tgz#cd9fb2a0aa1d5a12b473bd9fb96fa3dcff65ade2"

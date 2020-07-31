@@ -6,21 +6,17 @@ Object.assign(fs, _fs)
 
 let readMocks = {}
 
-fs.setReadFileMock = (pathx, error, data) => {
-  readMocks[pathx] = [error, data]
+fs.setReadFileMock = (p, error, data) => {
+  readMocks[p] = [error, data]
 }
 
-fs.readFile = (pathx, options, callback) => {
+fs.readFile = (p, options, callback) => {
   if (callback === undefined) {
     callback = options
   }
-  if (pathx in readMocks) {
-    callback(...readMocks[pathx])
-  } else {
-    console.log(readMocks)
-    console.log('111')
-    console.log(pathx)
-  }
+  console.log(p)
+    callback(...readMocks[p])
+
 }
 
 let writeMocks = {}
