@@ -8,12 +8,21 @@
     "src/db.js",
     "src/index.js"
   ],
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "src/index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
+    "@jest/globals": "^26.2.0",
     "commander": "^6.0.0",
+    "global": "^4.4.0",
     "inquirer": "^7.3.3",
+    "todoit": "^0.0.5",
     "user": "0.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.2.1"
   }
 }
